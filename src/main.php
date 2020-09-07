@@ -8,12 +8,9 @@ namespace Hschulz\CheckFpm;
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
 use Exception;
-use Hschulz\CheckFpm\NagiosReturnValue;
-use Hschulz\CheckFpm\Options;
-use Hschulz\CheckFpm\StatusReporter;
+use function getopt;
 use Hschulz\FpmStatus\Model\PoolConfig;
 use Hschulz\FpmStatus\Request\CurlStatus;
-use function getopt;
 use function implode;
 
 /* Create a short options string to be used by getopt() */

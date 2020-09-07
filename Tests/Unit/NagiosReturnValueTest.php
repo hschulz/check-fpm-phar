@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Hschulz\CheckFpm\Tests\Unit;
 
-use \Hschulz\CheckFpm\NagiosReturnValue;
-use \PHPUnit\Framework\TestCase;
+use Hschulz\CheckFpm\NagiosReturnValue;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Description of NagiosReturnValueTest
