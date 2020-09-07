@@ -5,9 +5,9 @@ declare(strict_types=1);
 
 namespace Hschulz\bin;
 
-use Phar;
 use const DIRECTORY_SEPARATOR;
 use function dirname;
+use Phar;
 
 /* Set required variables */
 $baseDir = dirname(__DIR__);
