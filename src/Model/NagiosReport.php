@@ -28,11 +28,11 @@ class NagiosReport extends Report
             /* Return by importance */
             if (isset($data[NagiosReturnValue::CRITICAL])) {
                 return $data[NagiosReturnValue::CRITICAL][0] ?? null;
-            } else if (isset($data[NagiosReturnValue::WARNING])) {
+            } elseif (isset($data[NagiosReturnValue::WARNING])) {
                 return $data[NagiosReturnValue::WARNING][0] ?? null;
-            } else if (isset($data[NagiosReturnValue::UNKNOWN])) {
+            } elseif (isset($data[NagiosReturnValue::UNKNOWN])) {
                 return $data[NagiosReturnValue::UNKNOWN] ?? null;
-            } else if ($data[NagiosReturnValue::OK]) {
+            } elseif ($data[NagiosReturnValue::OK]) {
                 return $data[NagiosReturnValue::OK][0] ?? null;
             }
         }
