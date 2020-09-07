@@ -1,0 +1,11 @@
+# IDE
+nbproject
+.vscode
+.idea
+
+# Build
+dist/
+
+# Composer
+vendor
+composer.phar
