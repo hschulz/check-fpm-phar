@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7df32065111a97c15a55fbe98b1441b1",
+    "content-hash": "90d993c099cb47bf3494187a2cf0adea",
     "packages": [
         {
             "name": "hschulz/php-fpm-status-lib",

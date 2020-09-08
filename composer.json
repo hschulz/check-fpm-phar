@@ -1,5 +1,5 @@
 {
-    "name": "hschulz/nagios-check-fpm-phar",
+    "name": "hschulz/check-fpm-phar",
     "description": "Nagios PHP-FPM status tool",
     "type": "project",
     "keywords": [ "nagios", "php", "fpm", "phar", "status" ],
